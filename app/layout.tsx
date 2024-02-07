@@ -31,14 +31,9 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
+       
             {children}
-          </ThemeProvider>
+
       </body>
     </html>
   )

@@ -12,7 +12,7 @@ export function  Hero() {
             <h1 className="lg:text-[5rem] md:text-[5rem] text-[5rem] font-bold ">Learning</h1>
             <h1 className="lg:text-[5rem] md:text-[5rem] text-[5rem] font-bold">Code</h1>
             <h1 className="lg:text-[5rem] md:text-[5rem] text-[5rem] font-bold">EveryDay</h1>
-            <div className="inline-flex items-center justify-center py-3 text-base font-['LolTitleItalic'] font-medium text-center text-white border-2 border-r-4 border-b-4 border-black rounded-md px-7 text-black hover:bg-opacity-90 ">RaxCruz</div>
+            <div className="inline-flex items-center justify-center py-3 text-base font-['LolTitleItalic'] font-medium text-center border-2 border-r-4 border-b-4 border-black rounded-md px-7 text-black hover:bg-opacity-90 ">RaxCruz</div>
          
           </div>
         <div className="hidden px-4 lg:block lg:w-1/12"></div>
