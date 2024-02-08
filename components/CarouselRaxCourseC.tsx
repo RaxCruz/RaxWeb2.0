@@ -9,7 +9,6 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 import Image from "next/image";
-import { Suspense } from "react";
 
 export function CarouselRaxCourseC() {
   const myArray = [
@@ -71,10 +70,8 @@ export function CarouselRaxCourseC() {
               <Card className="relative">
                 <p className="absolute font-['ChenYu'] left-2 top-2 text-[2.5rem]">第<span>{index+1}</span>章</p>
                 <CardContent className="flex aspect-square items-center justify-center p-0">
-                  <Suspense fallback={<div className="skeleton w-[400px] h-[400px]"></div>}>
-                  <Image src={item.image} width={400} height={400} alt={item.title}/>
+                  <Image src={item.image} width={400} height={400} alt={item.title} loading = 'eager'/>
                   {/* <span className="text-4xl font-semibold">{index + 1}</span> */}
-                  </Suspense>
                 </CardContent>
               </Card>
             </div>

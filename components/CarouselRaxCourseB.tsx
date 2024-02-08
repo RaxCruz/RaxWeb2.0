@@ -78,7 +78,7 @@ export function CarouselRaxCourseB() {
               <Card className="relative">
                 <p className="absolute font-['ChenYu'] left-2 top-2 text-[2.5rem]">第<span>{index+1}</span>章</p>
                 <CardContent className="flex aspect-square items-center justify-center p-0">
-                  <Image src={item.image} width={400} height={400} alt={item.title}/>
+                  <Image src={item.image} width={400} height={400} alt={item.title} loading = 'eager'/>
                   {/* <span className="text-4xl font-semibold">{index + 1}</span> */}
                 </CardContent>
               </Card>
