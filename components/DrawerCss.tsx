@@ -74,7 +74,7 @@ export function DrawerCss() {
           <div className="p-4 pb-0">
             <div className="flex items-center justify-center space-x-2">
               <div className="flex-1 text-center">
-                <div className="text-7xl font-bold tracking-tighter">
+                <div className="text-7xl font-bold tracking-tighter  md:w-full w-[80%] mx-auto">
                   <CarouselRaxCourseC />
                 </div>
               </div>
