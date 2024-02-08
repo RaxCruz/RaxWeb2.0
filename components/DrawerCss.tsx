@@ -85,9 +85,9 @@ export function DrawerCss() {
             </div>
           </div>
           <DrawerFooter>
-            <Button>Submit</Button>
+          
             <DrawerClose asChild>
-              <Button variant="outline">Cancel</Button>
+              <Button >Cancel</Button>
             </DrawerClose>
           </DrawerFooter>
         </div>
